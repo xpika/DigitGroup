@@ -57,7 +57,7 @@ library
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:       base  <10000, split <10000
+  build-depends:       base > 4 && <10000, split <10000
 
   -- Directories containing source files.
   -- hs-source-dirs:
